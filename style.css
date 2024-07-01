@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+body{
+    background-color: #ffffff;
+}
+.card{
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    font-family: "lexend deca";
+    color: #ffffffb5;
+    font-weight: 300;
+    margin-top: 13vh;
+}   
+.c1{
+    background-color: #e28525;
+    width: 300px;   
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    gap: 25px;
+    align-items: start;
+}
+.icon img{
+    height: auto;
+    width: 50px;
+}
+.title{
+    font-family: 'big shoulders display';
+    font-size: 34px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.c1 .info{
+    width: 200px;
+    line-height: 25px;
+}
+.info{
+    margin-bottom: 90px;
+}
+.c2{
+    background-color: #016972;
+    width: 300px;   
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 25px;
+    align-items: start;
+}
+.c2 .info{
+    width: 215px;
+    line-height: 25px;
+}
+.c3{
+    background-color: #00403f;
+    width: 300px;   
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    gap: 25px;
+    align-items: start;
+}
+.c3 .info{
+    width: 220px;
+    line-height: 25px;
+}
+button{
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    padding: 12px;
+    width: 120px;
+    font-family: "lexend deca";
+}
+.c1 button{
+    color: #e28525;
+}
+.c2 button{
+    color: #016972;
+}
+.c3 button{
+    color: #00403f;
+}
+button:hover{
+    background-color: transparent;
+    border: solid 2px #ffffff;
+    color: #ffffff;
+}
